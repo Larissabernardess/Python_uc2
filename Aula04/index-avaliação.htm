@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura HTML5 com Bootstrap</title>
+    <meta name="description" content="Uma página de exemplo para demonstrar a estrutura básica do HTML5 com Bootstrap.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados (opcional) -->
+    <style>
+        body {
+            padding: 20px;
+        }
+        header {
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 5px;
+            background-color: #f8f9fa;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            
+        }
+
+        
+
+       
+
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="text-dark">Aula 04 - Tabelas</h1>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="container">
+        <section id="section1" class="mb-5">
+            <h2 class="text-dark"> Tabela De Jogos</h2>
+          
+        </section>
+
+        <table>
+            <!-- Head da Tabela -->   
+            <thead>
+              <!-- Linha -->       
+              <tr>
+                <th>Foto</th>
+                <th>Produto</th>
+                <th>Preço</th>
+              </tr>
+            </thead>
+            <!-- Corpo da tabela --> 
+            <tbody>
+              <!-- Linha -->     
+              <tr>
+                <td img src="https://placehold.co/100x100?text=JS"alt="Helden Ring"></td>
+                <td rowspan="2">Helden Ring</td>
+                <td><mark> R$ 399,00</mark></td>
+
+                <tr>
+                    <td img src="https://placehold.co/100x100?text=JS"></td>
+                    <td rowspan="2">Spider Man</td>
+                    <td><mark> R$ 399,00</mark></td>
+                </tr>
+
+                <tr>
+                    <td img src="https://placehold.co/100x100?text=JS">
+                    <td rowspan="2">The Last Of Us</td>
+                    <td><mark> R$ 399,00</mark></td>
+                </tr>
+
+                <tr>
+                    <td img src="https://placehold.co/100x100?text=JS">
+                    <td rowspan="2">The Division</td>
+                    <td><mark> R$ 399,00</mark></td>
+                </tr>
+
+                <tr>
+                    <td img src="https://placehold.co/100x100?text=JS">
+                    <td rowspan="2">Call Of Duty</td>
+                    <td><mark> R$ 399,00</mark></td>
+                </tr>
+
+                <tr>
+                    <td img src="https://placehold.co/100x100?text=JS">
+                    <td rowspan="2">Fallout 4</td>
+                    <td><mark> R$ 399,00</mark></td>
+                </tr>
+
+                <tr>
+                    <td img src="https://placehold.co/100x100?text=JS">
+                    <td rowspan="2">BLoodborne</td>
+                    <td><mark> R$ 399,00</mark></td>
+                </tr>
+
+                <tr>
+                    <td img src="https://placehold.co/100x100?text=JS">
+                    <td rowspan="2">The Whitcher 3</td>
+                    <td><mark> R$ 399,00</mark></td>
+                </tr>
+
+                <tr>
+                    <td img src="https://placehold.co/100x100?text=JS">
+                    <td rowspan="2">Darksouls</td>
+                    <td><mark> R$ 399,00</mark></td>
+                </tr>
+
+                <tr>
+                    <td img src="https://placehold.co/100x100?text=JS">
+                    <td rowspan="2">Spider Man</td>
+                    <td><mark> R$ 399,00</mark></td>
+                </tr>
+
+              </tr>
+            </tbody>
+          </table>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="footer" class="container text-center">
+        <p class="text-muted p-3">&copy; Larissa Bernardes</p>
+    </footer>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
